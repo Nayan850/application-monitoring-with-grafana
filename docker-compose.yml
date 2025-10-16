@@ -61,10 +61,10 @@ services:
       - GF_SECURITY_ADMIN_PASSWORD=admin
       - GF_SMTP_ENABLED=true
       - GF_SMTP_HOST=smtp.gmail.com:587
-      - GF_SMTP_USER=nayansarker9958@gmail.com
-      - GF_SMTP_PASSWORD="xuhk upku xybb xnfx"
+      - GF_SMTP_USER=admin@gmail.com
+      - GF_SMTP_PASSWORD="your passdord"
       - GF_SMTP_SKIP_VERIFY=true
-      - GF_SMTP_FROM_ADDRESS=nayansarker9958@gmail.com    
+      - GF_SMTP_FROM_ADDRESS=admin@gmail.com    
     volumes:
       - grafana-data:/var/lib/grafana
       - ./grafana/provisioning:/etc/grafana/provisioning:ro
